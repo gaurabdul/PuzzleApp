@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="400dp"
+        android:layout_height="500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <LinearLayout android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/im1"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp" />
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/im2"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp" />
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/im3"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp" />
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/im4"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp" />
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/im5"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp" />
+
+                <TextView
+                    android:id="@+id/tv5"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <LinearLayout android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/im6"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp" />
+
+                <TextView
+                    android:id="@+id/tv6"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/im7"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp" />
+
+                <TextView
+                    android:id="@+id/tv7"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/im8"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp" />
+
+                <TextView
+                    android:id="@+id/tv8"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/im9"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp" />
+
+                <TextView
+                    android:id="@+id/tv9"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/im10"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp" />
+
+                <TextView
+                    android:id="@+id/tv10"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <LinearLayout android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/im11"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp" />
+
+                <TextView
+                    android:id="@+id/tv11"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/im12"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp" />
+
+                <TextView
+                    android:id="@+id/tv12"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/im13"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp" />
+
+                <TextView
+                    android:id="@+id/tv13"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/im14"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp" />
+
+                <TextView
+                    android:id="@+id/tv14"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/im15"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp" />
+
+                <TextView
+                    android:id="@+id/tv15"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <LinearLayout android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/im16"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp" />
+
+                <TextView
+                    android:id="@+id/tv16"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/im17"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp" />
+
+                <TextView
+                    android:id="@+id/tv17"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/im18"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp" />
+
+                <TextView
+                    android:id="@+id/tv18"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/im19"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp" />
+
+                <TextView
+                    android:id="@+id/tv19"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/im20"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp" />
+
+                <TextView
+                    android:id="@+id/tv20"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <LinearLayout android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/im21"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp" />
+
+                <TextView
+                    android:id="@+id/tv21"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/im22"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp" />
+
+                <TextView
+                    android:id="@+id/tv22"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/im23"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp" />
+
+                <TextView
+                    android:id="@+id/tv23"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/im24"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp" />
+
+                <TextView
+                    android:id="@+id/tv24"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/im25"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp" />
+
+                <TextView
+                    android:id="@+id/tv25"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="384dp"
+        android:layout_height="142dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:onClick="changeImg"
+            android:text="New Game" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="105dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:text="How to play" />
+
+        <Button
+            android:id="@+id/showbtn"
+            android:layout_width="124dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:text="Show Result" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
